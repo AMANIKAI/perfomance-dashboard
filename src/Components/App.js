@@ -1,14 +1,15 @@
 import React from 'react';
 import "../styles/App.css"
-import Login from './Login';
+
+import Login from "./Login";
+import Dashboard from './Dashboard';
+
 
 function App() {
   return (
-    <React.Fragment>
-      <div className="App">
-      <Login/>
-      </div>
-    </React.Fragment>    
+    <div className="App">
+      <Dashboard/>
+    </div> 
   );
 }
 

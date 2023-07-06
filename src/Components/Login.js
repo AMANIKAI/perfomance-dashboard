@@ -1,3 +1,4 @@
+import React from "react"
 
 
 function Login() {
@@ -12,12 +13,16 @@ function Login() {
                     <label for="password">Password:</label>
                     <input type="password" id="password" required/>
 
+                    <label for="password">Select Role:</label>
+                    <input type="Dropdown-menu" id="password" required/>
+
                     <button type="submit">Log In</button>
                 </form>
-                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                <p>Don't have an account? <a href="https://www.safaricom.co.ke/">User Sign Up</a></p>
+                <p>Don't have an account? <a href="https://www.safaricom.co.ke/">Admin Sign Up</a></p>
             </div>
-
-        </>
+        
+        </> 
     )
 };
 
